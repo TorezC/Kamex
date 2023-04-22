@@ -1,0 +1,13 @@
+.socialheader{
+    padding: 12px 125px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e3e6;
+}
+.contact-info{
+    display: flex;
+    gap: 20px;
+}
+.social-info{
+    color: #63666b;
+}
