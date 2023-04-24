@@ -14,9 +14,6 @@
 }
 
 @media(max-width: 991px){
-    .offc{
-        background-color: #2a1f89e0;
-    }
     .nav--link{
         color: white;
     }
