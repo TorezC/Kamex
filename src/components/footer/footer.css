@@ -1,9 +1,23 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 .contact-section {
     background: #0c1328;
     padding-top: 110px;
     padding-bottom: 80px;
 }
-
+.contact-link a {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #8e9197;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
 .footer-section{
     background: #0c1328;
     padding-top: 25px;
@@ -21,5 +35,13 @@
     padding: 13px 14px;
     margin: 0px 5px;
     transition: 0.5s;
-    line-height: 0!important;
+}
+.contact-title h4 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer-content {
+    color: #63666b;
+    font-size: 16px;
+    font-weight: 400;
 }
