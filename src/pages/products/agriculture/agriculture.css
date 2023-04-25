@@ -1,0 +1,21 @@
+.agric-content{
+    padding: 100px 125px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.agric-title{
+    color: #007bff;
+    font-size: 12px;
+    display: flex; 
+    gap: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.agric-title1{
+    color: #333;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.agric-details{
+    width: 70%;
+    text-align: justify;
+}

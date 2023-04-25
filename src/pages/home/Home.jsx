@@ -1,5 +1,4 @@
 import "./home.css";
-import SocialHeader from "../../components/socialheader/SocialHeader";
 import Header from "../../components/header/Header";
 import { NavLink } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
@@ -7,7 +6,6 @@ import Footer from "../../components/footer/Footer";
 const Home = () => {
   return (
     <div className="home">
-      <SocialHeader />
       <Header />
       <div class="banner-section">
         <div class="banner-bg">
