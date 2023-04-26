@@ -1,12 +1,52 @@
 import "./about.css";
+import Carousel from "react-bootstrap/Carousel";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import abtone from '../../assets/abt-banner-1.jpeg';
+import abttwo from '../../assets/abt-banner-2.jpeg';
+import abtthree from '../../assets/abt-banner-3.jpeg';
+import abtfive from '../../assets/abt-banner-5.jpeg';
 
 const About = () => {
   return (
     <div className="about">
       <Header />
-      <div className="about-details">
+      <div className="cau-abt">
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-fluid"
+              src={abtone}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-fluid"
+              src={abttwo}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-fluid"
+              src={abtthree}
+              alt="Third slide"
+              
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 img-fluid"
+              src={abtfive}
+              alt="Third slide"
+              
+            />
+          </Carousel.Item>
+        </Carousel>
+
+      </div>
+      <div className="about-details mt-3">
         <div className="about-content">
           <div className="content">
             <span className="about-title">
@@ -31,7 +71,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="sion row">
+        <div className="sion row mt-4">
           <div className="mission col-lg-6 col-md-6">
             <h5 className="sion-title">MISSION</h5>
             <p className=" sion-content">
@@ -49,9 +89,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="core">
+        <div className="core mt-4">
           <h4 className="sion-title">CORE VALUES</h4>
-          <div className="row core-head" style={{gap: '10px'}}>
+          <div className="row core-head" style={{ gap: "10px" }}>
             <div className="col core-title">
               <h5> Inclusion</h5>
               <p>
@@ -63,7 +103,6 @@ const About = () => {
             <div className="col core-title">
               <h5>Empowerment</h5>
               <p>
-                {" "}
                 We believe in providing educational opportunities that enable
                 community members to build new skills and gain valuable
                 experience. We promote an exchange of ideas that enriches

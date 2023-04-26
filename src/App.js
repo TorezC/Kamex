@@ -9,6 +9,8 @@ import Fisheries from "./pages/products/fisheries/Fisheries";
 import Gold from "./pages/products/gold/Gold";
 import Petroleum from "./pages/products/petroleum/Petroleum";
 import Water from "./pages/products/water/Water";
+import Contact from "./pages/contact/Contact";
+import Logistics from "./pages/products/logistics/Logistics";
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path="/mining" element={<Gold />} />
         <Route path="/oilandgas" element={<Petroleum />} />
         <Route path="/water" element={<Water />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/logistics" element={<Logistics />} />
       </Routes>
     </BrowserRouter>
     </div>

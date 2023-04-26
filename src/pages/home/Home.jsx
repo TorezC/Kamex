@@ -14,16 +14,11 @@ const Home = () => {
               <div class="col-12">
                 <div class="banner-title">
                   <h1>
-                    Purity Beyond <br />
-                    Expectation
+                  Possibilities Beyond  <br />
+                  Borders
                   </h1>
                   <p>
-                    Green said day they are creature sea thing divided bring
-                    whales the the rule <br />
-                    it sea in for.our multiply seas divided. Moveth and female
-                    green hath face <br />
-                    in itself living lights two does land place.
-                  </p>
+                  Unlike most companies that makes profit their primary concern, Kamex Group is keen on helping communities and individuals which is why our business offerings are intentionally driven.                  </p>
                   <div class="banner-bttn bttn">
                     <NavLink  to='/about-us' className='btn-1'>Learn More</NavLink> 
                     <NavLink to='/contact' className='btn-2'>Contact</NavLink> 
