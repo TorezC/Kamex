@@ -14,7 +14,7 @@ const Gold = () => {
             </span>
             <h2 className="product-title1">MINING</h2>
             <p className="product-details">
-            Kamex Gold and Diamond mining is an intermediate gold mining company committed to responsible mining with a portfolio of an assets in Sierra Leone.
+            Kamex Gold and Diamond mining is an intermediate gold mining company committed to responsible mining with a portfolio of assets in Sierra Leone.
             </p>
           </div>
           <div className="image-product">

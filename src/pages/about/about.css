@@ -15,12 +15,16 @@
 .about-detail{
     text-align: justify;
 }
+
+.cau-abt{
+    height: 20%;
+}
 /* .sion{
     margin: 30px 100px;
 
 } */
 .sion-title{
-    color: #332;
+    color: #007bff;
     font-size: 22px;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
@@ -35,6 +39,10 @@
     font-family: 'Space Grotesk', sans-serif;
     text-align: justify;
 
+}
+.core-title > h5{
+    color: #548dca;
+    font-family: 'Space Grotesk', sans-serif;
 }
 @media(max-width: 1094px){
     .about-details{

@@ -79,6 +79,9 @@ const Footer = () => {
                 <li>
                   <NavLink to="/agriculture">Agriculture</NavLink>
                 </li>
+                <li>
+                  <NavLink to="/agriculture">Logistics</NavLink>
+                </li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-6">

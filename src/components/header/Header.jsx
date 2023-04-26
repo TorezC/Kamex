@@ -104,7 +104,6 @@ const Header = () => {
                   </NavLink>
                 </Nav.Link>
                 <NavDropdown
-                  
                   className="nav--link black"
                   title="Products"
                   id="basic-nav-dropdown"
@@ -132,6 +131,11 @@ const Header = () => {
                   <NavDropdown.Item >
                     <NavLink to='/oilandgas' className="nav--links">
                       Kamex Petroleum
+                    </NavLink>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item >
+                    <NavLink to='/logistics' className="nav--links">
+                      Kamex Logistics
                     </NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item >
