@@ -1,5 +1,6 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Home from './pages/home/Home';
+import './App.css'
 import About from './pages/about/About';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Agriculture from "./pages/products/agriculture/Agriculture";
