@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e1e3e6;
+    overflow: hidden;
 }
 .contact-info{
     display: flex;
@@ -13,6 +14,7 @@
 }
 .nav--kamex{
     padding: 0px 125px;
+    overflow: hidden;
 }
 .nav--link{
     color: #111111;
